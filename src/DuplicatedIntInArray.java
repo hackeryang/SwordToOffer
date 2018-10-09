@@ -25,7 +25,7 @@ public class DuplicatedIntInArray {
             if(b[numbers[i]]==true){  //默认boolean数组每个元素都是false，当i不同但是两个numbers[i]相同时，b[numbers[i]]会指向同一个元素即true
                 duplication[0]=numbers[i];
                 return true;
-            }else{  //在没有遇到重复元素时，将遇到的boolean数组元素都置为true
+            }else{  //在没有遇到重复元素时，将numbers[i]的boolean数组元素都置为true
                 b[numbers[i]]=true;
             }
         }
