@@ -23,9 +23,9 @@ public class ReconstructBinaryTree {
         TreeNode root=new TreeNode(pre[startPre]);
         for(int i=startIn;i<=endIn;i++){  //需要确定中序遍历数组中根节点的位置，因此用中序数组作为索引
             if(in[i]==pre[startPre]){  //前序遍历数组的第一个元素一定是根节点，中序遍历数组中找到根节点位置后，根节点左边元素为左子树，右边元素为右子树
-                //递归遍历左子树，截取前序数组和中叙数组的左子树部分，startPre+1为前序数组中根节点后一个元素，即左子树开始位置，startPre+(i-startIn)为前序数组中左子树结束位置，根据中序数组中根节点左边元素个数计算
+                //递归遍历左子树，截取前序数组和中序数组的左子树部分，startPre+1为前序数组中根节点后一个元素，即左子树开始位置，startPre+(i-startIn)为前序数组中左子树结束位置，根据中序数组中根节点左边元素个数计算
                 root.left=reConstructBinaryTree(pre,startPre+1,startPre+i-startIn,in,startIn,i-1);
-                //递归遍历右子树，截取前序数组和中叙数组的右子树部分，i+1为中序数组中根节点后一个元素，即右子树开始位置，startPre+(i-startIn)+1为前序数组中右子树开始位置，根据中序数组中根节点右边元素个数来计算
+                //递归遍历右子树，截取前序数组和中序数组的右子树部分，i+1为中序数组中根节点后一个元素，即右子树开始位置，startPre+(i-startIn)+1为前序数组中右子树开始位置，根据中序数组中根节点右边元素个数来计算
                 root.right=reConstructBinaryTree(pre,startPre+i-startIn+1,endPre,in,i+1,endIn);
             }
         }
