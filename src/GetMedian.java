@@ -8,11 +8,11 @@ import java.util.Collections;
 * */
 public class GetMedian {
     ArrayList<Integer> list=new ArrayList<Integer>();
-    public void Insert(Integer num) {
+    public void insert(Integer num) {
         list.add(num);
     }
 
-    public Double GetMedian() {
+    public Double getMedian() {
         Collections.sort(list);  //将列表排序
         int length=list.size();
         if((length&1)==1){  //在二进制中，奇数的最低位一定为1，所以逻辑与1，1前面所有高位都补0，这样最低位不为0时一定是奇数

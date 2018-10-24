@@ -18,7 +18,7 @@ public class PrintBinaryTree {
     }
 
     //更简单的递归方法
-    ArrayList<ArrayList<Integer> > print(TreeNode pRoot) {
+    public ArrayList<ArrayList<Integer> > print(TreeNode pRoot) {
         ArrayList<ArrayList<Integer> > result=new ArrayList<ArrayList<Integer> >();  //用包含多个列表的总列表存储最终结果
         printLines(pRoot,1,result);
         return result;

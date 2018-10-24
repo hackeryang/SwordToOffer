@@ -9,9 +9,7 @@ public class DepthOfBinaryTree {
 
         public TreeNode(int val) {
             this.val = val;
-
         }
-
     }
 
     public int treeDepth(TreeNode root) {

@@ -14,8 +14,7 @@ public class KthTreeNode {
         }
     }
 
-    TreeNode KthNode(TreeNode pRoot, int k)
-    {
+    TreeNode KthNode(TreeNode pRoot, int k) {
         if(pRoot==null  || k==0) return null;
         Stack<TreeNode> stack=new Stack<TreeNode>();  //用栈存储最小节点遍历的路径，栈弹出的元素必然是当前最小节点
         int count=0;  //从左子树最左下角的最小节点开始计数，到K时返回第K小的节点

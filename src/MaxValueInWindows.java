@@ -18,7 +18,7 @@ public class MaxValueInWindows {
             }
         });
         int count=0;  //每次加入窗口的元素数量的计数
-        for(int i=0;i<num.length-size+1;i++){  //num.length-size+1为最后一个窗口的开头位置
+        for(int i=0;i<num.length-size+1;i++){  //num.length-size为最后一个窗口的开头位置，正如常见的i<array.length一样，这里的num.length-size+1是一个到不了的索引位置
             while(count<size){  //当计数没达到窗口大小时，朝优先队列中添加元素，形成一个窗口
                 queue.add(num[i+count]);
                 count++;

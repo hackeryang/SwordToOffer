@@ -27,7 +27,7 @@ public class ComplicatedLinkedListCopy {
         }
         currentNode=pHead;  //游标重新回到链表开头
         while(currentNode!=null){  //当前节点存在时，克隆当前节点的随机指针给克隆节点
-            //currentNode.next就是当前节点的克隆节点，随机指针指向当前节点随机指向节点的下一跳，及随机指向节点的克隆节点
+            //currentNode.next就是当前节点的克隆节点，随机指针指向当前节点随机指向节点的下一跳，即随机指向节点的克隆节点
             currentNode.next.random=currentNode.random==null?null:currentNode.random.next;
             currentNode=currentNode.next.next;  //游标跳过当前节点的克隆节点，指向原链表的下一跳
         }

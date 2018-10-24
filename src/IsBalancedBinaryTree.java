@@ -10,9 +10,7 @@ public class IsBalancedBinaryTree {
 
         public TreeNode(int val) {
             this.val = val;
-
         }
-
     }
 
     public boolean isBalanced(TreeNode root) {

@@ -19,7 +19,7 @@ public class PreorderTraversal {
         if(root==null) return list;
         queue.add(root);
         while(queue.size()!=0){  //当“队列中”有二叉树节点时不断循环
-            //从“队列”中移除二叉树当前根节点，并附给一个临时二叉树变量，按照下面queue添加元素的顺序一定是先添加左节点再添加右节点，所以移除顺序也一定能是前序遍历
+            //从“队列”中移除二叉树当前根节点，并赋给一个临时二叉树变量，按照下面queue添加元素的顺序一定是先添加左节点再添加右节点，所以移除顺序也一定能是前序遍历
             TreeNode temp=queue.remove(0);
             if(temp.left!=null){  //如果有左子树就将左节点添加到“队列”中
                 queue.add(temp.left);

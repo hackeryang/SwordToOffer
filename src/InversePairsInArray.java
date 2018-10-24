@@ -14,7 +14,7 @@ public class InversePairsInArray {
     }
 
     public void mergeUpToDown(int[] a,int lo,int hi){  //将数组a[lo..hi]排序
-        if(lo>=hi) return ;
+        if(lo>=hi) return;
         int mid=(lo+hi)>>1;  //二进制中按位向右移一位等同于除以2
         mergeUpToDown(a,lo,mid);  //递归将数组左半边排序
         mergeUpToDown(a,mid+1,hi);  //递归将数组右半边排序

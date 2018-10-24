@@ -15,10 +15,9 @@ public class FirstNotRepeatingChar {
                 map.put(str.charAt(i),1);
             }
         }
-        int pos=-1;
         for(int i=0;i<str.length();i++){  //遍历字符串，对每一个当前字符都去查找散列表对应键的值是不是1，找到就返回该字符在字符串中的位置
             if(map.get(str.charAt(i))==1) return i;
         }
-        return pos;  //若没有找到只出现一次的字符，则返回-1
+        return -1;  //若没有找到只出现一次的字符，则返回-1
     }
 }

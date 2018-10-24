@@ -10,7 +10,7 @@ public class ReverseList {
             this.val = val;
         }
     }
-    public ListNode ReverseList(ListNode head) {
+    public ListNode reverseList(ListNode head) {
         ListNode first=head;  //初始化首节点，从原链表的首节点开始反转操作
         ListNode reverse=null;  //用一个新的空链表存放反转后的链表
         while(first!=null){  //当原链表的节点没有被剥离完时不断循环

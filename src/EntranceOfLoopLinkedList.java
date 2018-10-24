@@ -2,7 +2,7 @@ import java.util.HashSet;
 
 /*
 * 给一个链表，若其中包含环，请找出该链表的环的入口结点，否则，输出null。
-* 传统解法的原理解释：https://blog.csdn.net/wuzhekai1985/article/details/6725263
+* 传统解法的原理解释：https://blog.csdn.net/snow_7/article/details/52181049
 * */
 public class EntranceOfLoopLinkedList {
     public class ListNode {
@@ -14,7 +14,7 @@ public class EntranceOfLoopLinkedList {
         }
     }
     //新解法，利用HashSet不能包含重复元素的特性，判断两个对象是否相同会使用equals()方法，若相等equals()返回true，同时set.add(Object)返回false
-    public ListNode EntryNodeOfLoop(ListNode pHead){
+    public ListNode entryNodeOfLoop(ListNode pHead){
         HashSet<ListNode> set=new HashSet<ListNode>();
         while(pHead!=null){
             /*

@@ -26,7 +26,7 @@ public class GetCountOfK {
     }
 
     private int getLastK(int[] array,int k,int start,int end){
-        int mid=(start+end)>>1;  //在二进制中按位右移一位相当于除以2
+        int mid=(start+end)>>1;  //在二进制中按位右移一位相当于除以2，在循环外创建变量可避免每次循环都创建一个mid变量，浪费内存
         while(start<=end){
             if(array[mid]>k){
                 end=mid-1;

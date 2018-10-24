@@ -13,13 +13,13 @@ public class StringDictionarySort {
             permutationHelper(str.toCharArray(),0,result);
             Collections.sort(result);  //对各种排列情况输出的字符串按照字典序排序
         }
-                return result;
-            }
+        return result;
+    }
 
-            public void permutationHelper(char[] cs, int i, ArrayList<String> list){
-                if(i==cs.length-1){  //当交换索引到达字符数组最后一位，相当于字符间的交换已经完成到了字符串倒数第二位，一种情况已经交换完成，输出一种字符组合结果
-                    String val=String.valueOf(cs);
-                    if(!list.contains(val)){
+    public void permutationHelper(char[] cs, int i, ArrayList<String> list){
+        if(i==cs.length-1){  //当交换索引到达字符数组最后一位，相当于字符间的交换已经完成到了字符串倒数第二位，一种情况已经交换完成，输出一种字符组合结果
+            String val=String.valueOf(cs);
+            if(!list.contains(val)){
                 list.add(val);
             }
         }else{
