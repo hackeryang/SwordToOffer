@@ -3,30 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f055390-d9ce-4bf7-9aa0-6b84d444a2eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BiggestSumOfSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BiggestSumOfSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComplicatedLinkedListCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComplicatedLinkedListCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConvertBinaryTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConvertBinaryTreeToLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DepthOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntranceOfLoopLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntranceOfLoopLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindNextNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindNextNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstNotRepeatingChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstNotRepeatingChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetCountOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetCountOfK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetMedian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetUglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetUglyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InversePairsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InversePairsInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IsBalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IsBalancedBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IsPostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IsPostorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KthTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KthTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxValueInWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxValueInWindows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinKIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinKIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MirrorBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MirrorBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PreorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringDictionarySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringDictionarySort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,62 +11,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1901072350">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="44" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="11" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="14" />
-          <entry key="project.open.time.9" value="11" />
-          <entry key="project.opened" value="45" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="241" />
-          <entry key="md" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="241" />
-          <entry key="Markdown" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="16814" />
-          <entry key="md" value="1652" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="16814" />
-          <entry key="Markdown" value="1652" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="736">
-                <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+              <first_editor relative-caret-position="649">
+                <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -288,6 +216,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="LinkedList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -363,18 +292,17 @@
       <workItem from="1540217610056" duration="1633000" />
       <workItem from="1540257029376" duration="6316000" />
       <workItem from="1540294291554" duration="2751000" />
-      <workItem from="1540345987438" duration="7203000" />
+      <workItem from="1540345987438" duration="7957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207676000" />
+    <option name="totallyTimeSpent" value="208430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -768,8 +696,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="736">
-            <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+          <first_editor relative-caret-position="649">
+            <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>

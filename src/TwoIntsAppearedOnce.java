@@ -1,26 +1,25 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 
 /*
-* 一个整型数组里除了两个数字之外，其他的数字都出现了偶数次。请写程序找出这两个只出现一次的数字。
-* */
+ * 一个整型数组里除了两个数字之外，其他的数字都出现了偶数次。请写程序找出这两个只出现一次的数字。
+ * */
 //num1,num2分别为长度为1的数组。传出参数
 //将num1[0],num2[0]设置为返回结果
 public class TwoIntsAppearedOnce {
-    public void FindNumsAppearOnce(int [] array,int num1[] , int num2[]) {
-        ArrayList<Integer> list=new ArrayList<Integer>();  //利用一个列表存放不重复的两个整数
+    public void FindNumsAppearOnce(int[] array, int num1[], int num2[]) {
+        ArrayList<Integer> list = new ArrayList<Integer>();  //利用一个列表存放不重复的两个整数
         Arrays.sort(array);
-        for(int i=0;i<array.length;i++){
-            if(i+1<array.length && array[i]==array[i+1]){  //排序后的数组如果出现重复的两个相邻元素，则循环游标跳过array[i+1]，从array[i+2]再开始循环
+        for (int i = 0; i < array.length; i++) {
+            if (i + 1 < array.length && array[i] == array[i + 1]) {  //排序后的数组如果出现重复的两个相邻元素，则循环游标跳过array[i+1]，从array[i+2]再开始循环
                 i++;
-            }else{  //如果发现相邻元素不重复的数，说明就是只出现一次的数，加入列表
+            } else {  //如果发现相邻元素不重复的数，说明就是只出现一次的数，加入列表
                 list.add(array[i]);
             }
         }
-        if(list.size()!=0){  //最后列表只添加了两个数，输出列表存储的开头两个数即为结果
-            num1[0]=list.get(0);
-            num2[0]=list.get(1);
+        if (list.size() != 0) {  //最后列表只添加了两个数，输出列表存储的开头两个数即为结果
+            num1[0] = list.get(0);
+            num2[0] = list.get(1);
         }
     }
 
